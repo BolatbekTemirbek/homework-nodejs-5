@@ -18,7 +18,7 @@ router.post("/signUp", [
           error: {
             message: "INVALID_DATA",
             code: 400,
-            errors: errors.array(),
+            // errors: errors.array(),
           },
         });
       }
